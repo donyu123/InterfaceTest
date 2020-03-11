@@ -10,7 +10,7 @@ from  config import Conf_File
 import os
 
 #获取测试用例 文档 并且打开 调用判断方法 判断哪条用例可执行
-run_list = Data("../data/testdata.xlsx","美多商城接口测试")
+run_list = Data("D:/pycode/data/testdata.xlsx","美多商城接口测试")
 
 #获取根据是否运行字段的测试用例
 data_init=run_list.get_run_data()
