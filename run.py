@@ -5,7 +5,7 @@ import os
 
 if __name__ == '__main__':
 
-    # 日志报告json文件
+    # 日志报告json文件123
     report_path = Conf_File.get_report_path() + os.sep + "result"
     # 日志报告
     report_path_html = Conf_File.get_report_path() + os.sep + "html"
