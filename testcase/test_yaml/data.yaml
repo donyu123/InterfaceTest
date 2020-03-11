@@ -1,0 +1,43 @@
+#字典
+#"name": "test_yaml"
+#"result": "sucess"
+
+##列表
+#- "a"
+#- "b"
+
+##字典嵌套字典
+#preson1:
+#  name: xiaoming
+#preson2:
+#  name: xiaohong
+
+##字典嵌套列表
+#person:
+#  - "a"
+#  - "b"
+
+##列表嵌套列表
+#-
+#  - "a"
+#  - "b"
+#-
+#  - "1"
+#  - "2"
+
+##列表嵌套字典
+#-
+##  name: xiaohong
+##-
+##  name: xiaoming
+
+##读取多个文档
+#---
+#"用户名称": "test123"
+#"密码": "123456"
+#---
+#"用户名称": "test456"
+#"密码": "123456"
+BASE:
+  test:
+    url: "http://211.103.136.242:8064"

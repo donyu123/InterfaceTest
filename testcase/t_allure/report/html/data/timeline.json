@@ -1,0 +1,417 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-THN35DI",
+    "children" : [ {
+      "name" : "4072-MainThread",
+      "children" : [ {
+        "name" : "用例2",
+        "uid" : "ff74211bb4e86841",
+        "parentUid" : "989a39b1e22bf3c41a1668a0aa435a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737615334,
+          "stop" : 1583737615334,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例1",
+        "uid" : "d7315d573b8bc8a0",
+        "parentUid" : "989a39b1e22bf3c41a1668a0aa435a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737615331,
+          "stop" : 1583737615331,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例3",
+        "uid" : "70e90af70c62bd4",
+        "parentUid" : "989a39b1e22bf3c41a1668a0aa435a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737615336,
+          "stop" : 1583737615336,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "989a39b1e22bf3c41a1668a0aa435a2b"
+    }, {
+      "name" : "11560-MainThread",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "1f316ab1409e5eed",
+        "parentUid" : "ad05df307dea97ffe7dd7045ce9b0811",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583736187589,
+          "stop" : 1583736187589,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "d4d3f8cdd78089fb",
+        "parentUid" : "ad05df307dea97ffe7dd7045ce9b0811",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583736187592,
+          "stop" : 1583736187592,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "1c071bbf375f7d89",
+        "parentUid" : "ad05df307dea97ffe7dd7045ce9b0811",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583736187587,
+          "stop" : 1583736187587,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad05df307dea97ffe7dd7045ce9b0811"
+    }, {
+      "name" : "7304-MainThread",
+      "children" : [ {
+        "name" : "用例1",
+        "uid" : "3abf7b4be431ee8f",
+        "parentUid" : "242f81afa6b36567dbcc2217554d20fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737069686,
+          "stop" : 1583737069686,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2",
+        "uid" : "8e9f4f99427aa544",
+        "parentUid" : "242f81afa6b36567dbcc2217554d20fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737069689,
+          "stop" : 1583737069689,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例3",
+        "uid" : "e2652d6ec3017277",
+        "parentUid" : "242f81afa6b36567dbcc2217554d20fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737069691,
+          "stop" : 1583737069692,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "242f81afa6b36567dbcc2217554d20fc"
+    }, {
+      "name" : "11136-MainThread",
+      "children" : [ {
+        "name" : "case2",
+        "uid" : "3db97428239b4b35",
+        "parentUid" : "37eaabce4fc57a9bce98ca40fc7a3482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583738540384,
+          "stop" : 1583738540384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'case2'" ]
+      }, {
+        "name" : "csae1",
+        "uid" : "73496ec263bc1735",
+        "parentUid" : "37eaabce4fc57a9bce98ca40fc7a3482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583738540380,
+          "stop" : 1583738540381,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'csae1'" ]
+      } ],
+      "uid" : "37eaabce4fc57a9bce98ca40fc7a3482"
+    }, {
+      "name" : "14272-MainThread",
+      "children" : [ {
+        "name" : "用例1",
+        "uid" : "fc2c8527c0175cf",
+        "parentUid" : "4673616db3b427e7135a5fe27d10d02d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737303976,
+          "stop" : 1583737303976,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例3",
+        "uid" : "2ce7fc0fa6e15d21",
+        "parentUid" : "4673616db3b427e7135a5fe27d10d02d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737303993,
+          "stop" : 1583737303993,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2",
+        "uid" : "9ca54c98aff7f52c",
+        "parentUid" : "4673616db3b427e7135a5fe27d10d02d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737303978,
+          "stop" : 1583737303978,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4673616db3b427e7135a5fe27d10d02d"
+    }, {
+      "name" : "3288-MainThread",
+      "children" : [ {
+        "name" : "用例2",
+        "uid" : "8463227e48c9a6f7",
+        "parentUid" : "16a962f53c6faacd9bc2dc4d8cf923a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737583378,
+          "stop" : 1583737583378,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例3",
+        "uid" : "aced9169555cd3b9",
+        "parentUid" : "16a962f53c6faacd9bc2dc4d8cf923a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737583381,
+          "stop" : 1583737583381,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例1",
+        "uid" : "914a5917e1718fc1",
+        "parentUid" : "16a962f53c6faacd9bc2dc4d8cf923a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737583376,
+          "stop" : 1583737583376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16a962f53c6faacd9bc2dc4d8cf923a3"
+    }, {
+      "name" : "2356-MainThread",
+      "children" : [ {
+        "name" : "用例3",
+        "uid" : "812e424efc001415",
+        "parentUid" : "d86ed437d8d895e6a0619bdbb075847b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583737562876,
+          "stop" : 1583737562876,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2",
+        "uid" : "4da88de33600c2fc",
+        "parentUid" : "d86ed437d8d895e6a0619bdbb075847b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583737562800,
+          "stop" : 1583737562800,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例1",
+        "uid" : "33914051eb51e2a1",
+        "parentUid" : "d86ed437d8d895e6a0619bdbb075847b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583737562591,
+          "stop" : 1583737562591,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d86ed437d8d895e6a0619bdbb075847b"
+    }, {
+      "name" : "7268-MainThread",
+      "children" : [ {
+        "name" : "用例1",
+        "uid" : "ff65bba9283c979b",
+        "parentUid" : "3a94233df439515d9c6c4a85daee919a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737826445,
+          "stop" : 1583737826445,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例3",
+        "uid" : "70af6ce19e1831ba",
+        "parentUid" : "3a94233df439515d9c6c4a85daee919a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737826450,
+          "stop" : 1583737826450,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2",
+        "uid" : "6dce2b6b59b50dc8",
+        "parentUid" : "3a94233df439515d9c6c4a85daee919a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737826447,
+          "stop" : 1583737826447,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a94233df439515d9c6c4a85daee919a"
+    }, {
+      "name" : "12248-MainThread",
+      "children" : [ {
+        "name" : "用例2",
+        "uid" : "a00ff11a4499e587",
+        "parentUid" : "b1ee438d493059347c053f5c32797e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737777002,
+          "stop" : 1583737777002,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1ee438d493059347c053f5c32797e1f"
+    }, {
+      "name" : "4324-MainThread",
+      "children" : [ {
+        "name" : "用例3",
+        "uid" : "d468089f7bba00f5",
+        "parentUid" : "5536e90782e9410ccf3036c54eb0dd05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583737877660,
+          "stop" : 1583737877661,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5536e90782e9410ccf3036c54eb0dd05"
+    }, {
+      "name" : "1444-MainThread",
+      "children" : [ {
+        "name" : "用例3",
+        "uid" : "3f0e81d386039ee6",
+        "parentUid" : "04ac0fb4d9954b209691540e8e1ff0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583738114879,
+          "stop" : 1583738114879,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例1",
+        "uid" : "5bd73acabe075b44",
+        "parentUid" : "04ac0fb4d9954b209691540e8e1ff0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583738114875,
+          "stop" : 1583738114875,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用例2",
+        "uid" : "8bd84c0750662bc9",
+        "parentUid" : "04ac0fb4d9954b209691540e8e1ff0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583738114877,
+          "stop" : 1583738114877,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04ac0fb4d9954b209691540e8e1ff0f4"
+    } ],
+    "uid" : "c5ae298a2b67484a132ec5ec4cba6341"
+  } ]
+}

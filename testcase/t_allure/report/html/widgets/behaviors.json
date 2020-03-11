@@ -1,0 +1,15 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "d57078cfa41688f1026f79427f9ba194",
+    "name" : "类级别标签",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

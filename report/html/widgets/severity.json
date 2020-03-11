@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1de4cfd0dbf62973",
+  "name" : "cart_1添加购物车成功",
+  "time" : {
+    "start" : 1583893820159,
+    "stop" : 1583893822261,
+    "duration" : 2102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85e2048687a91d56",
+  "name" : "Info_1个人信息",
+  "time" : {
+    "start" : 1583893819220,
+    "stop" : 1583893819467,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a312e2dc67c38e",
+  "name" : "Info_2获取个人信息正确",
+  "time" : {
+    "start" : 1583893819487,
+    "stop" : 1583893820156,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

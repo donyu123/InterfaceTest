@@ -1,0 +1,15 @@
+
+BASE:
+
+  log_level: "debug"
+
+  log_extension: ".log"
+
+  test:
+    url: "http://211.103.136.242:8064"
+    sheet_name: "JieKouCase"
+  emil:
+    smtpserver: "smtp.163.com"
+    username: "dyqwaszx@163.com"
+    password: "dy1994522"
+    receiver: "dyqwaszx@163.com"

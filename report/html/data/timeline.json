@@ -1,0 +1,224 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-THN35DI",
+    "children" : [ {
+      "name" : "14860-MainThread",
+      "children" : [ {
+        "name" : "Info_1个人信息",
+        "uid" : "88f3491945d22afd",
+        "parentUid" : "e6b5107af75fefc018579e4fa33d427b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583837313714,
+          "stop" : 1583837313800,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_2获取个人信息正确",
+        "uid" : "d16e92695186d920",
+        "parentUid" : "e6b5107af75fefc018579e4fa33d427b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583837313803,
+          "stop" : 1583837316366,
+          "duration" : 2563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+      }, {
+        "name" : "cart_1添加购物车成功",
+        "uid" : "a39a22a9997aea8d",
+        "parentUid" : "e6b5107af75fefc018579e4fa33d427b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583837316408,
+          "stop" : 1583837318836,
+          "duration" : 2428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': 'login_4', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "e6b5107af75fefc018579e4fa33d427b"
+    }, {
+      "name" : "7068-MainThread",
+      "children" : [ {
+        "name" : "cart_1添加购物车成功",
+        "uid" : "37bccf548f5d90fa",
+        "parentUid" : "0e7386f7f21ef7836719a27096cc336b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750169282,
+          "stop" : 1583750170366,
+          "duration" : 1084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': 'login_4', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_1个人信息",
+        "uid" : "22fb16eef3b31aad",
+        "parentUid" : "0e7386f7f21ef7836719a27096cc336b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750167226,
+          "stop" : 1583750167434,
+          "duration" : 208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_2获取个人信息正确",
+        "uid" : "ea6771dc3625f59c",
+        "parentUid" : "0e7386f7f21ef7836719a27096cc336b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750167437,
+          "stop" : 1583750169270,
+          "duration" : 1833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+      } ],
+      "uid" : "0e7386f7f21ef7836719a27096cc336b"
+    }, {
+      "name" : "17972-MainThread",
+      "children" : [ {
+        "name" : "cart_1添加购物车成功",
+        "uid" : "dab7dbbd515c64b8",
+        "parentUid" : "1a0339f5c5f3e5b2f23f5c29c66e33f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583835557011,
+          "stop" : 1583835558141,
+          "duration" : 1130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': 'login_4', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_2获取个人信息正确",
+        "uid" : "b7e486280ee874b",
+        "parentUid" : "1a0339f5c5f3e5b2f23f5c29c66e33f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583835555884,
+          "stop" : 1583835556975,
+          "duration" : 1091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+      }, {
+        "name" : "Info_1个人信息",
+        "uid" : "fab6793e3ed07b45",
+        "parentUid" : "1a0339f5c5f3e5b2f23f5c29c66e33f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583835555754,
+          "stop" : 1583835555862,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "1a0339f5c5f3e5b2f23f5c29c66e33f5"
+    }, {
+      "name" : "17132-MainThread",
+      "children" : [ {
+        "name" : "cart_1添加购物车成功",
+        "uid" : "9bf2fe05beb280c8",
+        "parentUid" : "b4107f66d087a1e19e3c82be5e8eaccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750917465,
+          "stop" : 1583750920217,
+          "duration" : 2752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': 'login_4', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_2获取个人信息正确",
+        "uid" : "59aca69722be0579",
+        "parentUid" : "b4107f66d087a1e19e3c82be5e8eaccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750915060,
+          "stop" : 1583750917462,
+          "duration" : 2402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+      }, {
+        "name" : "Info_1个人信息",
+        "uid" : "d31388e9271f1ff",
+        "parentUid" : "b4107f66d087a1e19e3c82be5e8eaccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583750914908,
+          "stop" : 1583750915056,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "b4107f66d087a1e19e3c82be5e8eaccf"
+    }, {
+      "name" : "12492-MainThread",
+      "children" : [ {
+        "name" : "Info_1个人信息",
+        "uid" : "85e2048687a91d56",
+        "parentUid" : "ef510fd02fefaf6dfd30a807e4625db6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583893819220,
+          "stop" : 1583893819467,
+          "duration" : 247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
+      }, {
+        "name" : "Info_2获取个人信息正确",
+        "uid" : "78a312e2dc67c38e",
+        "parentUid" : "ef510fd02fefaf6dfd30a807e4625db6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583893819487,
+          "stop" : 1583893820156,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'Info_2', '模块': '个人信息', '接口名称': '获取个人信息正确', '请求URL': '/user/', '前置条件': 'login_4', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': \"id': 1, 'username': 'python', 'mobile': '17701397029', 'email': '952673638@qq.com'\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 200.0, '数据库验证': \"select id,username,mobile,email from tb_users where username='python'\"}" ]
+      }, {
+        "name" : "cart_1添加购物车成功",
+        "uid" : "1de4cfd0dbf62973",
+        "parentUid" : "ef510fd02fefaf6dfd30a807e4625db6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583893820159,
+          "stop" : 1583893822261,
+          "duration" : 2102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例ID': 'cart_1', '模块': '购物车', '接口名称': '添加购物车成功', '请求URL': '/cart/', '前置条件': 'login_4', '请求类型': 'post', '请求参数类型': 'json', '请求参数': '{\"sku_id\": \"3\",\"count\": \"1\", \"selected\": \"true\"}', '预期结果': \"sku_id': 3, 'count': 1\", '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '{\"Authorization\": \"JWT ${token}$\"}', 'cookies': '', 'status_code': 201.0, '数据库验证': ''}" ]
+      } ],
+      "uid" : "ef510fd02fefaf6dfd30a807e4625db6"
+    } ],
+    "uid" : "c5ae298a2b67484a132ec5ec4cba6341"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "9ca54c98aff7f52c",
+  "name" : "用例2",
+  "fullName" : "testcase.t_allure.test_allure#test_2",
+  "historyId" : "3436066f2b3a208723a6f5ef817d1256",
+  "time" : {
+    "start" : 1583737303978,
+    "stop" : 1583737303978,
+    "duration" : 0
+  },
+  "description" : "我是备注执行测试用例2的结果是成功",
+  "descriptionHtml" : "<p>我是备注执行测试用例2的结果是成功</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase.t_allure"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-THN35DI"
+  }, {
+    "name" : "thread",
+    "value" : "14272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.t_allure.test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e9f4f99427aa544",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583737069689,
+        "stop" : 1583737069689,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1f316ab1409e5eed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583736187589,
+        "stop" : 1583736187589,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ca54c98aff7f52c.json",
+  "parameterValues" : [ ]
+}
