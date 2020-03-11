@@ -2,7 +2,6 @@
 
 import pytest
 import allure
-import  os
 @allure.feature("类级别标签")
 class TestAllure:
     @allure.title("用例1")
