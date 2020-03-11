@@ -7,26 +7,26 @@
       "name" : "个人信息",
       "children" : [ {
         "name" : "Info_1个人信息",
-        "uid" : "85e2048687a91d56",
+        "uid" : "733556348bc61c2d",
         "parentUid" : "ea01f1b0a81fd89dc4b76adc7190cebc",
         "status" : "passed",
         "time" : {
-          "start" : 1583893819220,
-          "stop" : 1583893819467,
-          "duration" : 247
+          "start" : 1583895316870,
+          "stop" : 1583895317102,
+          "duration" : 232
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'用例ID': 'Info_1', '模块': '个人信息', '接口名称': '个人信息', '请求URL': '/user/', '前置条件': '', '请求类型': 'get', '请求参数类型': '', '请求参数': '', '预期结果': '身份认证信息未提供', '实际结果': '', '备注': '', '是否运行': 'y', 'headers': '', 'cookies': '', 'status_code': 401.0, '数据库验证': ''}" ]
       }, {
         "name" : "Info_2获取个人信息正确",
-        "uid" : "78a312e2dc67c38e",
+        "uid" : "7abbc1480175ef98",
         "parentUid" : "ea01f1b0a81fd89dc4b76adc7190cebc",
         "status" : "passed",
         "time" : {
-          "start" : 1583893819487,
-          "stop" : 1583893820156,
-          "duration" : 669
+          "start" : 1583895317106,
+          "stop" : 1583895318967,
+          "duration" : 1861
         },
         "flaky" : false,
         "newFailed" : false,
@@ -37,13 +37,13 @@
       "name" : "购物车",
       "children" : [ {
         "name" : "cart_1添加购物车成功",
-        "uid" : "1de4cfd0dbf62973",
+        "uid" : "99d15415c828b5b6",
         "parentUid" : "7f94919b726a1cbc951eb561d66feba5",
         "status" : "passed",
         "time" : {
-          "start" : 1583893820159,
-          "stop" : 1583893822261,
-          "duration" : 2102
+          "start" : 1583895318972,
+          "stop" : 1583895321103,
+          "duration" : 2131
         },
         "flaky" : false,
         "newFailed" : false,

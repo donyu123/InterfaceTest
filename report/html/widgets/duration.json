@@ -1,30 +1,30 @@
 [ {
-  "uid" : "85e2048687a91d56",
-  "name" : "Info_1个人信息",
-  "time" : {
-    "start" : 1583893819220,
-    "stop" : 1583893819467,
-    "duration" : 247
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1de4cfd0dbf62973",
-  "name" : "cart_1添加购物车成功",
-  "time" : {
-    "start" : 1583893820159,
-    "stop" : 1583893822261,
-    "duration" : 2102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78a312e2dc67c38e",
+  "uid" : "7abbc1480175ef98",
   "name" : "Info_2获取个人信息正确",
   "time" : {
-    "start" : 1583893819487,
-    "stop" : 1583893820156,
-    "duration" : 669
+    "start" : 1583895317106,
+    "stop" : 1583895318967,
+    "duration" : 1861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d15415c828b5b6",
+  "name" : "cart_1添加购物车成功",
+  "time" : {
+    "start" : 1583895318972,
+    "stop" : 1583895321103,
+    "duration" : 2131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "733556348bc61c2d",
+  "name" : "Info_1个人信息",
+  "time" : {
+    "start" : 1583895316870,
+    "stop" : 1583895317102,
+    "duration" : 232
   },
   "status" : "passed",
   "severity" : "normal"

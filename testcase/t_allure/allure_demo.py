@@ -26,7 +26,3 @@ class TestAllure:
     def test_4(self,case):
         print(case)
         allure.dynamic.title(case)
-
-if __name__  == "__main__":
-    pytest.main(["test_allure.py"])
-    # os.system('allure generate ./report/result -o ./report --clean')

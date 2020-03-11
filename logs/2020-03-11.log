@@ -3,3 +3,8 @@
 2020-03-11 10:30:21,909  D:\pycode\utils\LogUtil.py INFO heanders的值是：{"Authorization": "JWT ${token}$"} cookies的值是：
 2020-03-11 10:30:21,909  D:\pycode\utils\LogUtil.py INFO 替换过后的值是['token']
 2020-03-11 10:30:22,277  D:\pycode\utils\LogUtil.py INFO 报告地址：allure generate D:\pycode\report\result -o D:\pycode\report\html --clean
+2020-03-11 10:55:18,608  D:\pycode\utils\LogUtil.py INFO heanders的值是：{"Authorization": "JWT ${token}$"} cookies的值是：
+2020-03-11 10:55:18,608  D:\pycode\utils\LogUtil.py INFO 替换过后的值是['token']
+2020-03-11 10:55:20,882  D:\pycode\utils\LogUtil.py INFO heanders的值是：{"Authorization": "JWT ${token}$"} cookies的值是：
+2020-03-11 10:55:20,883  D:\pycode\utils\LogUtil.py INFO 替换过后的值是['token']
+2020-03-11 10:55:21,109  D:\pycode\utils\LogUtil.py INFO 报告地址：allure generate D:\pycode\report\result -o D:\pycode\report\html --clean

@@ -1,2 +1,0 @@
-INFO     D:\pycode\utils\LogUtil.py:Base.py:46 heanders的值是：{"Authorization": "JWT ${token}$"} cookies的值是：
-INFO     D:\pycode\utils\LogUtil.py:Base.py:32 替换过后的值是['token']
