@@ -118,7 +118,7 @@ if __name__ == "__main__":
     #执行请求 并且生成报告json文件
     pytest.main(["-s","test_excel_case.py","--alluredir",report_path])
 
-    #调用生成报告方法 转换成html文件
-    allure_report(report_path,report_path_html)
-    #发送邮件
-    send_mail(title="接口测试报告",content=report_path_html)
+    # #调用生成报告方法 转换成html文件
+    # allure_report(report_path,report_path_html)
+    # #发送邮件
+    # send_mail(title="接口测试报告",content=report_path_html)
