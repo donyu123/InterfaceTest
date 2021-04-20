@@ -41,7 +41,7 @@ pluggy==0.13.1
 poco==0.96.8
 pocoui==1.0.78
 pushbullet.py==0.11.0
-py==1.8.0
+py==1.10.0
 pyaml==19.4.1
 pycparser==2.19
 PyGithub==1.44.1
