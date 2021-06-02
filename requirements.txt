@@ -67,7 +67,7 @@ smmap2==2.0.5
 sqlparse==0.3.0
 svn==0.3.46
 texttable==0.9.1
-urllib3==1.24.3
+urllib3==1.26.5
 wcwidth==0.1.7
 websocket-client==0.48.0
 Werkzeug==0.15.6
